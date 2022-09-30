@@ -48,3 +48,15 @@
     box-shadow: none;
     outline: 0px;
 }
+
+small{
+    color: red
+}
+
+#success_message{
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+
