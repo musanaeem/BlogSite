@@ -48,3 +48,17 @@
     box-shadow: none;
     outline: 0px;
 }
+
+small{
+    color: red
+}
+
+#success_message{
+    color: green;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: large;
+}
+
+
