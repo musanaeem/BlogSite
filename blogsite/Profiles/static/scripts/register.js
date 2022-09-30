@@ -57,7 +57,6 @@ function is_valid_username(username_value){
 function validate_username_or_name(value, input, regex, message){
     if (value != ""){
         if (value.length >= 3 && value.length <= 15){
-            //case insensitive check of only alphabets
             if(regex.test(value))
                 return true
             else
